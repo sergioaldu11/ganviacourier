@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" href="/landing"><img class="logoHome" src="./assets/img/logo_granvia_courier_2.jpeg" alt="Gran Via Courier" /></a>
+            <a class="navbar-brand" href="/landing"><img class="logoHome" src="./assets/img/LOGO GRANVIA-v5-1.png" alt="Gran Via Courier" /></a>
             <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
@@ -28,14 +28,14 @@
                         <p class="d-lg-none">Google maps</p>
                     </a>
                 </li>
-                <li >
-                    <a class="azul" href= "https://docs.google.com/forms/d/e/1FAIpQLSdH-9forRgayhvwy_aBsMvHGuzipJafYjGfrum4GiJzc6Syuw/viewform" *ngIf="!isDocumentation()" class="nav-link">Registrate gratis</a>
-                    <a [routerLink]="['/home']" *ngIf="isDocumentation()" class="nav-link">Back to Kit</a>
+                <li>
+                    <a href= "http://extranet.granviacourier.com/dlwebvwe/Login.aspx" class="nav-link">Acceso Extranet</a>
                 </li>
-                <li class="nav-item" *ngIf="isDocumentation()">
-                    <a href="https://github.com/creativetimofficial/paper-kit-2-angular/issues?ref=pk2-free-local" target="_blank" class="nav-link">Have an issue</a>
+                <li>
+                    <a class="linkNav" href= "https://forms.gle/PRDzh8rvNL4fHuXR7" class="nav-link">Registrate gratis</a>
                 </li>
             </ul>
         </div>
-    </div>
+    </div>                   
+
 </nav>

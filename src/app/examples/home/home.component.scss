@@ -20,6 +20,21 @@
     border: none;
 }
 
+@media screen and (min-width: 1000px) {
+    .tituloHome {
+      margin-top: 60%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .tituloHome {
+      margin-top: 300%;
+    }
+  }
+
+
+
+
 .tituloHome{
     font-size: 50px;
     font-weight: bold;

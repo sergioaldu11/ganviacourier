@@ -3,15 +3,12 @@ import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ComponentsComponent } from './components/components.component';
-import { ProfileComponent } from './examples/profile/profile.component';
 import { HomeComponent } from './examples/home/home.component';
-import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
+import { RegistroComponent } from './examples/registro/registro.component';
 
 const routes: Routes =[
     { path: '',          component: HomeComponent },
-    { path: 'user-profile',     component: ProfileComponent },
-    { path: 'nucleoicons',      component: NucleoiconsComponent }
+    { path: 'registro',     component: RegistroComponent },
 ];
 
 @NgModule({

@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
+import { RegistroComponent } from './registro/registro.component';
 
 @NgModule({
     imports: [
@@ -14,7 +15,8 @@ import { ProfileComponent } from './profile/profile.component';
     ],
     declarations: [
         HomeComponent,
-        ProfileComponent
+        ProfileComponent,
+        RegistroComponent
     ]
 })
 export class ExamplesModule { }

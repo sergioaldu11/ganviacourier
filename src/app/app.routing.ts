@@ -5,10 +5,14 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './examples/home/home.component';
 import { RegistroComponent } from './examples/registro/registro.component';
+import { ReunionComponent } from './examples/reunion/reunion.component';
+import { ContactoComponent } from './examples/contacto/contacto.component';
 
 const routes: Routes =[
     { path: '',          component: HomeComponent },
     { path: 'registro',     component: RegistroComponent },
+    { path: 'reunion',     component: ReunionComponent },
+    { path: 'contacto',     component: ContactoComponent },
 ];
 
 @NgModule({
